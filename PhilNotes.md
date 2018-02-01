@@ -103,3 +103,83 @@ But not all valid arguments are sound.
 # 11/31/18
 
 ## Logical Connectives
+* If its impossible, the argument is invalid, If its possible, the argument is valid
+* A complex sentence is a sentence whos parts themselves are sentences. 
+
+### Simple or Atomic Sentences
+### Connectives
+Logical connectives serve to contruct compound sentences from simpler ones. In grammar, they are classified as the so-called sentential conjunctions.
+
+### Negation: 'not'
+* With the help of the word 'not', one forms the negation of any sentence
+* Two sentences, one of which is the negation of the other, are called contradictory sentences.
+* If a sentence is false, its negation is true.
+
+Negation is created by adding 'not' to a sentence. In propositional logic, the word not is put in front of the whole sentence.
+* Ex: "Not (1 is a positive integer)"
+
+In everyday language, it is customary to place it with the verb, or replace it by "It is not the case that" ( why is everything overcomplicated )
+* "1 is not a positive inteer", or else, "it is not the case that 1 is a positive integer"
+
+### Conjunction: "and"
+If, for instance, the sentences: 2 is a positive integer && 2 < 3 are joined by the word "and", we obtain the conjunction
+2 is a positive integer and 2 < 3. The combined components are called conjunts.
+* When we assert the conjunction of two sentences, this is tantamount to stating that both of the sentences forming it are true
+* If that is the case, then the conjuntion is ture, but if at least one of the members are false, then both are false
+
+IF true && true, conjuntion is true, 
+ELSE conjunction is false
+
+Differences between "and", "but", and "although" are ignored in logic. 
+
+"and" === "but" === "although"
+
+Not all ANDS are the same.
+* John and Mary are friends.
+  * Can't be spread into individuals, so isnt a conjunction.
+  * John are/is friends XXX
+* John and Mary are students.
+  * Can be spread into individuals, so isnt a conjunction
+  * John is a student
+
+### Disjunction - "or"
+When joining sentences by means of the word "or", one obtains the disjunction of those sentences. The components of that sentence are called disjuncts.
+
+In every language, the word "or" posesses two different meanings ( at least )
+* Taken in the non-exclusive (or inclusive) meaning, the disjunction expresses that at least one of the itemse are true
+* When using "or" in logic, we are only concerned with if one or the other is true, not if both are true.
+
+i.e. 2*2=5 or Chicago is a city is TRUE because one of the two statements are true.
+* t & f = true 
+* f & t = true 
+* t & t = false
+* f & f = false
+
+### Conditional: "if...,then..."
+The subordinate clause to which the word "if" is prefixed is called the _antecedent_, and the principal clause introduced by the word "then" is called the _consequent_.
+By asserting a conditional, one claims that the antecedent cannot be true when the consequent is false.
+
+* A conditional is true when:
+  * Both the antecedent and the consequent are true.
+  * The antecedent is false and the consequent is true.
+  * Both the antecedent and consequent are false. 
+* A conditional is false when:
+  * The antecedent is true and the consequent is false.
+
+Doesn't matter what it says, treated as a whole.
+* (T then T) = true
+* (F then T) = true
+* (F then F) = true
+* (T then F) = false
+
+(The slide here doesn't make sense)
+
+He or she who accepts its antecedent as true, but cannot accept its concequent and Whoever accepts a conditional as true and rejects its consequent as false, must also reject its antecedent.
+
+If true, then true
+If false, then true
+If true, then false
+If false, then false
+
+* P and not Q is false, then if P then Q is true.
+* P and not Q is true, then if P then Q is false.
